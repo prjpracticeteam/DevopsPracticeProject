@@ -13,7 +13,7 @@ pipeline {
         }
         stage ('docker run') {
             steps {
-                sh 'docker run --name python2 python'
+                sh 'docker run --name python3 python'
             }
         }
     }
