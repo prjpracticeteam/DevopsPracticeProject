@@ -14,7 +14,7 @@ def div4(number):
 
 
 if __name__ == "__main__":
-    number = input("Enter a number")
+    number = "84"
     div4(number)
     print(f"{number} is {'' if div4(number) else 'not'} divisble by 4")
 
